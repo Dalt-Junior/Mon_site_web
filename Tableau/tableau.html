@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            /* Style pour le tableau */
+            table {
+                border-collapse: collapse; /* Supprime les espaces entre les bordures */
+                margin-bottom: 20px; /* Marge en bas du tableau */
+            }
+            table, th, td {
+                border: 1px solid black; /* Bordure noire pour le tableau et les cellules */
+                text-align: center; /* Centre le texte dans les cellules */
+            }
+            th, td {
+                padding: 10px; /* Espace intérieur dans les cellules */
+            }
+            /* Styles de couleur pour certaines cellules */
+            .red { background-color: red; }
+            .blue { background-color: blue; }
+            .green { background-color: green; }
+            .gray { background-color: lightgray; }
+        </style>
+    </head>
+    <body>
+
+        <h2>Tableau 1</h2>
+        <table>
+            <tr>
+                <td colspan="2">A</td> <!-- Une cellule qui occupe deux colonnes -->
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+        </table>
+
+        <h2>Tableau 2</h2>
+        <table>
+            <tr>
+                <td rowspan="2"> D </td>
+                <td colspan="3"> E </td>
+            </tr>
+            <tr>
+                <td class="3"> F </td>
+            </tr>
+        </table>
+
+        <h2>Tableau 3</h2>
+        <table> 
+            <tr> 
+                <td class="red" rowspan="2"> A </td> 
+                <td colspan="3"> B </td> 
+            </tr>
+            <tr>
+                <td class="blue" colspan="3"> C </td> 
+            </tr>
+            <tr>
+                <td rowspan="2"> D </td>
+                <td rowspan="2" class="green"> E </td>
+                <td> F </td>
+            </tr>
+            <tr>
+                <td> G </td>
+            </tr>
+        </table> 
+
+    </body>
+</html>

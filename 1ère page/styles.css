@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f8ff; /* Couleur de fond de la page */
+    font-family: Arial, sans-serif; /* Police de caractère */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime le remplissage par défaut */
+}
+
+header {
+    background-color: #4682b4; /* Couleur de fond de l'en-tête */
+    color: white; /* Couleur du texte en blanc */
+    padding: 20px; /* Espace intérieur autour du texte */
+    text-align: center; /* Centre le texte dans l'en-tête */
+}
+
+.div1 {
+    max-width: 800px; /* Largeur maximale du conteneur */
+    margin: 20px auto; /* Centre le conteneur horizontalement avec une marge en haut et en bas */
+    padding: 20px; /* Espace intérieur autour du contenu */
+    background-color: white; /* Couleur de fond du conteneur */
+    border-radius: 10px; /* Bords arrondis pour un effet esthétique */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère autour du conteneur */
+}
+
+h1 {
+    font-size: 24px; /* Taille de la police pour le titre principal */
+}
+
+p {
+    line-height: 1.6; /* Hauteur de ligne pour améliorer la lisibilité */
+}

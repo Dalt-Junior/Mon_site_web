@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Enregistrement des Étudiants</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="titre">Enregistrement des Étudiants</h2>
+            <form>
+                <fieldset>
+                    <legend>État civil</legend>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required><br>
+
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required><br>
+
+                    <label for="date">Date de naissance :</label>
+                    <input type="date" id="date" name="date" required><br>
+
+                    <label for="email">E-mail :</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label>Sexe :</label>
+                    <input type="radio" id="m" name="sexe" value="M" required>
+                    <label for="m">M</label>
+                    <input type="radio" id="f" name="sexe" value="F">
+                    <label for="f">F</label><br>
+
+                    <label for="tel">Tel :</label>
+                    <input type="tel" id="tel" name="tel"><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Les diplômes</legend>
+                    <input type="checkbox" id="cep" name="diplome" value="CEP">
+                    <label for="cep">CEP</label>
+                    <input type="checkbox" id="bepc" name="diplome" value="BEPC">
+                    <label for="bepc">BEPC</label>
+                    <input type="checkbox" id="bac" name="diplome" value="BAC">
+                    <label for="bac">BAC</label>
+                </fieldset>
+
+                <label for="adresse">Votre adresse :</label>
+                <input type="text" id="adresse" name="adresse" placeholder="Ex : Quartier Zongo, Cotonou"><br>
+
+                <fieldset>
+                    <legend>PAYS</legend>
+                    <input type="radio" id="benin" name="pays" value="Bénin" required>
+                    <label for="benin">Bénin</label>
+                    <input type="radio" id="senegal" name="pays" value="Sénégal">
+                    <label for="senegal">Sénégal</label>
+                    <input type="radio" id="france" name="pays" value="France">
+                    <label for="france">France</label>
+                </fieldset>
+
+                <div class="boutons">
+                    <button type="submit">Envoyer</button>
+                    <button type="reset">Effacer</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

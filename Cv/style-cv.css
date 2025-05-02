@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0b8fe6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0b8fe6;
+    border-bottom: 2px solid #0b8fe6;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
